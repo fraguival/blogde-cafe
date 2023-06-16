@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+    .nosotros {
+        display: flex;
+        gap: 48px;
+    }
+}
+.nosotros p {
+    color: $second;
+    margin-top: 24px;
+}

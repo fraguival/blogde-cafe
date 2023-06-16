@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+    .two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+}
+.blog-content {
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 4px solid #ddd;
+    border-radius: 12px;
+}
+.blog h2 {
+    color: $second;
+    font-size: 32px;
+    padding: 24px 0;
+    text-align: center;
+}
+.blog h3 {
+    color: $second;
+    font-size: 28px;
+    padding: 12px 0;
+    text-align: center;
+}
+.blog p {
+    color: $second;
+    text-align: center;
+}
+.blog .center {
+    text-align: center; 
+}
+
+.btn-blog {
+    background-color: $dark;
+}
+.courses h2 {
+    color: $second;
+    font-size: 32px;
+    padding: 24px 0;
+    text-align: center;
+}
+.courses-content {
+    margin: 120px 0;
+    padding: 12px;
+    border: 4px solid #ddd;
+    border-radius: 12px;
+}
+.courses h3 {
+    color: $second;
+    font-size: 28px;
+    padding: 12px 0;
+    text-align: center;
+}
+.courses p {
+    color: $second;
+    font-size: 20px;
+    font-weight: bold;
+}
+.courses p span {
+    font-weight: normal;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-courses {
+    background-color: $first;
+}
